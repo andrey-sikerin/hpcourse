@@ -7,7 +7,7 @@
 
 using namespace std;
 
-namespace cscenter_hpcource {
+namespace cscenter { namespace hpcourse {
 
     ForkJoinThreadPool::ForkJoinThreadPool(unsigned int size) :
             m_size(size) {
@@ -18,4 +18,5 @@ namespace cscenter_hpcource {
 
         cout << "Run loop started" << endl;
     }
-}
+} /* namespace hpcourse */ } /* namespace cscenter */
+

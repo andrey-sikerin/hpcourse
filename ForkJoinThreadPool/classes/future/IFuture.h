@@ -6,7 +6,8 @@
 
 #include <chrono>
 
-namespace cscenter_hpcource {
+namespace cscenter { namespace hpcourse {
+
     template <typename T>
     class IFuture {
         virtual T getValue() = 0;
@@ -17,8 +18,8 @@ namespace cscenter_hpcource {
 
         virtual ~IFuture() {}
     };
-}
 
-
+} /* namespace hpcourse */ } /* namespace cscenter */
 
 #endif //FIXEDTHREADPOOL_FUTURE_H
+

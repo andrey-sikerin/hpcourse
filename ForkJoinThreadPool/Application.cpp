@@ -5,7 +5,7 @@
 
 #include "classes/ForkJoinThreadPool.h"
 
-using namespace cscenter_hpcource;
+using namespace cscenter::hpcourse;
 
 void Application::run(void) {
     static const unsigned int kThreadPoolSize = 10;

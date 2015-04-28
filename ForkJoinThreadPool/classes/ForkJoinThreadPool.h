@@ -6,7 +6,8 @@
 
 #include "../support/UnCopyable.h"
 
-namespace cscenter_hpcource {
+namespace cscenter { namespace hpcourse {
+
     class ForkJoinThreadPool : UnCopyable {
 
         unsigned int m_size;
@@ -18,5 +19,8 @@ namespace cscenter_hpcource {
 
         void startRunLoop();
     };
-}
+
+} /* namespace hpcourse */ } /* namespace cscenter */
+
 #endif //FIXEDTHREADPOOL_FIXEDTHREADPOOL_H
+

@@ -4,7 +4,8 @@
 #ifndef FIXEDTHREADPOOL_NONCOPYABLE_H
 #define FIXEDTHREADPOOL_NONCOPYABLE_H
 
-namespace cscenter_hpcource {
+namespace cscenter { namespace hpcourse {
+
     struct UnCopyable {
         UnCopyable() = default;
 
@@ -13,6 +14,8 @@ namespace cscenter_hpcource {
 
         UnCopyable &operator=(const UnCopyable &) = delete; // non copyable
     };
-}
+
+} /* namespace hpcourse */ } /* namespace cscenter */
 
 #endif //FIXEDTHREADPOOL_NONCOPYABLE_H
+
